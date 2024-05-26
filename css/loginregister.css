@@ -1,0 +1,156 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    width:100%;
+    background-color: #D0BDB0;
+}
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    max-width:430px;
+    width:100%;
+    background:#fff;
+    border-radius:7px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+.rfr{
+    color:#fff;
+    outline: none;
+    background: gray;
+    font-size:1.2rem;
+    font-weight: 500;
+    letter-spacing:0.3px;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.notlong{
+    height:40px;
+    width:40%;
+    padding: 0 15px;
+    font-size:17px;
+    margin-bottom:1.3rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.container .form{
+    padding: 2rem;
+}
+
+.form header{
+    font-size:2rem;
+    font-weight:500;
+    text-align:center;
+    margin-bottom:1.5rem;
+}
+
+.forminput{
+    height:60px;
+    width:100%;
+    padding: 0 15px;
+    font-size:17px;
+    margin-bottom:1.3rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.rememberme{
+    text-align: left;
+    height:20px;
+    width:100%;
+    padding: 0 5px;
+    font-size:5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.form input:focus{
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.form a{
+    font-size: 16px;
+    color: #95887E;
+    text-decoration: none;
+}
+
+.form a:hover{
+    text-decoration: underline;
+}
+
+.form input.checkbox{
+    
+}
+
+.gob{
+    color:#fff;
+    outline: none;
+    background: #961010;
+    font-size:1.2rem;
+    font-weight: 500;
+    letter-spacing:0.3px;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.gob:hover{
+    background: #7f0e0e;
+}
+
+.forminput.button{
+    color:#fff;
+    background: #961010;
+    font-size:1.2rem;
+    font-weight:500;
+    letter-spacing:1px;
+    margin-top:0.4rem;
+    cursor: pointer;
+}
+
+.form input[type=checkbox]{
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 25px;
+}
+
+.rememberme{
+    top: 0;
+  left: 0;
+  height: 20px;
+  width: 25px;
+}
+
+.forminput.button:hover{
+    background: #7f0e0e;
+}
+
+.signup{
+    font-size:17px;
+    text-align:center;
+}
+
+.signup label{
+    color: #961010;
+    cursor: pointer;
+}
+
+.signup label:hover{
+    text-decoration: underline;
+}

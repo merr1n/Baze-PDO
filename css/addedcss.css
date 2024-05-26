@@ -1,0 +1,199 @@
+.butonmuzica{
+  background-color: #961010; /* Crimson */
+  border: none;
+  color: #D0BDB0;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    border-radius: 8px;
+}
+
+.butonmuzica:hover{
+    background-color: #7f0e0e;
+}
+
+.logoanim{
+    animation: fadelogo ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.textanimshorter{
+    animation: fadelogo ease 1s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+
+.textanim{
+    animation: fadelogo ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.textanimprice{
+    animation:fadelogo ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+}
+
+.textanimlonger{
+    animation: fadelogo ease 5s;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadelogo{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opaicity: 1;
+    }
+}
+
+
+/*harta*/
+
+.iframe1{
+    width:100%;
+    margin-top:0;
+    margin-bottom:0;
+    filter: invert(90%);
+}
+
+.backvideo{
+    width:100%;
+    right:0;
+    bottom:0;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .backvideo{
+        width:100%;
+        height:auto;
+    }
+}
+
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+/*about page*/
+
+.hero{
+    width:100%;
+    height:100vh;
+    background-color:#D0BDB0;
+    opacity: 0.9;
+    padding: 0 5%;
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.navvid{
+    width:100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.ulvid{
+    list-style:none;
+    display:inline-block;
+    margin-left:40px;
+}
+
+.livid{
+    list-style:none;
+    display:inline-block;
+    margin-left:40px;
+}
+
+.avid{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+.logovid{
+    width:160px;
+}
+
+.logovidd{
+    width:0px;
+}
+
+.contentvid{
+    text-align:center;
+}
+
+.contentvid h1{
+    font-size:80px;
+    color:white;
+    font-weight: 600;
+}
+
+.back-video{
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index:-1;
+}
+
+@media(min-aspect-ratio: 16/9){
+    .back-video{
+        width:100%;
+        height:auto;
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    .back-video{
+        width:auto;
+        height:100%;
+    }
+}
+
+.btff{
+    z-index:2;
+}
